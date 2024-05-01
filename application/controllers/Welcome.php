@@ -1,4 +1,4 @@
-<?php
+<?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
@@ -25,5 +25,9 @@ class Welcome extends CI_Controller {
 	public function biodata()
 	{
 		$this->load->view('biodata');	
+	}
+	public function datadiri()
+	{
+		$this->load->view('datadiri');	
 	}
 }		 
